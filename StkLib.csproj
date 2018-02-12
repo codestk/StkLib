@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CEA6A8C-3970-48CB-B8CF-B42FD5C0B170}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StkLib</RootNamespace>
+    <AssemblyName>StkLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CCdate\CCDateTime.cs" />
+    <Compile Include="CCobject\ObjectInstance.cs" />
+    <Compile Include="Cryptography\EncryptAndDecrypt.cs" />
+    <Compile Include="Enum\StringEnum.cs" />
+    <Compile Include="Errors\ErrorLogging.cs" />
+    <Compile Include="Io\File.cs" />
+    <Compile Include="Io\ImageUtiliy.cs" />
+    <Compile Include="Io\TextFile\TxtFile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings\StkString.cs" />
+    <Compile Include="Web\CCPage.cs" />
+    <Compile Include="Web\Controls\Form\StkAlert.cs" />
+    <Compile Include="Web\Controls\StkGridView\GridViewGroup.cs" />
+    <Compile Include="Web\Controls\StkGridView\GridViewGroupList.cs" />
+    <Compile Include="Web\Controls\StkGridView\GridViewHelper.cs" />
+    <Compile Include="Web\Controls\StkGridView\GridViewSummary.cs" />
+    <Compile Include="Web\Controls\StkGridView\GridViewSummaryList.cs" />
+    <Compile Include="Web\Controls\StkGridView\GridVieGridViewEvent.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\JavaScript\MessageBox.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Errors\vssver2.scc" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

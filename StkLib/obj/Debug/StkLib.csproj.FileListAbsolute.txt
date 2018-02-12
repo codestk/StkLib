@@ -1,0 +1,5 @@
+D:\GitWorkSpace\StkLib\StkLib\bin\Debug\StkLib.dll
+D:\GitWorkSpace\StkLib\StkLib\bin\Debug\StkLib.pdb
+D:\GitWorkSpace\StkLib\StkLib\obj\Debug\StkLib.csprojResolveAssemblyReference.cache
+D:\GitWorkSpace\StkLib\StkLib\obj\Debug\StkLib.dll
+D:\GitWorkSpace\StkLib\StkLib\obj\Debug\StkLib.pdb
