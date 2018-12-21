@@ -3,3 +3,9 @@ D:\GitWorkSpace\MPO2\StkLib\bin\Debug\StkLib.pdb
 D:\GitWorkSpace\MPO2\StkLib\obj\Debug\StkLib.csprojResolveAssemblyReference.cache
 D:\GitWorkSpace\MPO2\StkLib\obj\Debug\StkLib.dll
 D:\GitWorkSpace\MPO2\StkLib\obj\Debug\StkLib.pdb
+D:\GitWorkSpace\StkLib\bin\Debug\StkLib.dll
+D:\GitWorkSpace\StkLib\bin\Debug\StkLib.pdb
+D:\GitWorkSpace\StkLib\obj\Debug\StkLib.csprojResolveAssemblyReference.cache
+D:\GitWorkSpace\StkLib\obj\Debug\StkLib.csproj.CoreCompileInputs.cache
+D:\GitWorkSpace\StkLib\obj\Debug\StkLib.dll
+D:\GitWorkSpace\StkLib\obj\Debug\StkLib.pdb
